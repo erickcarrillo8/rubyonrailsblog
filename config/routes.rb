@@ -7,7 +7,7 @@ Rails.application.routes.draw do
    delete "/articles/:id" destroy
    get "/articles:id" show
    get "/articles:new" new
-   get "/articles:id:edit" edit
+   get "/articles:id/edit" edit
    patch "/articles/:id" update
    put "/articles/:id" update
 =end
