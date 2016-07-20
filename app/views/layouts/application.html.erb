@@ -2,15 +2,40 @@
 <html>
 <head>
   <title>Blog</title>
-  <%= stylesheet_link_tag    'default', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'default', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <link rel="stylesheet" type="text/css" href="http://www.yonkethecardepot.com/ruby/assets/css/flexboxgrid.css">
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
   <%= csrf_meta_tags %>
 </head>
 <body>
 <header>
+	<nav class="be-red white">
+		<ul class="no-list row center-xs">
+
+			<li class="col-md">
+				<h1>Blog</h1>
+			</li>
+			<li class="col-md">
+				
+			</li>
+			<li class="col-md">
+				Diseño
+			</li>
+			<li class="col-md">
+				Programación
+			</li>
+			<li class="col-md">
+				Tecnología
+			</li>
+		</ul>
+
+	</nav>
 
 </header>
 <%= yield %>
 
 </body>
 </html>
+	
