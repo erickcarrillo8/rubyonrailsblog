@@ -1,16 +1,16 @@
 Rails.application.routes.draw do
  
    resources :articles 
-  
-  # get "/articles"
-  # post "/articles"
-  # delete "/articles"
-  # get "/articles:id"
-  # get "/articles:new"
-  # get "/articles:id:edit"
-  # patch "/articles/:id"
-#   put "/articles/:id"
-
+=begin
+   get "/articles" index
+   post "/articles" create
+   delete "/articles/:id" destroy
+   get "/articles:id" show
+   get "/articles:new" new
+   get "/articles:id:edit" edit
+   patch "/articles/:id" update
+   put "/articles/:id" update
+=end
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
