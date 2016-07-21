@@ -31,6 +31,12 @@ class ArticlesController  < ApplicationController
     #PUT /articles/:id
     def update
         # @article.update_attributes({title: 'Nuevo Titulo'})
+        @article = Article.find(params[:id])
+        if @article.update(article_params)
+            redirect_to @article
+        else
+            render :edit
+        end
     end
     #DELETE /articles/:id
     def destroy
