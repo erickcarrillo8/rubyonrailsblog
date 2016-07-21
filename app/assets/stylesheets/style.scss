@@ -28,7 +28,7 @@ a , a:visited{
     padding:8px 5px;
 }
 
-.field{
+.field, .top-space, .actions{
     margin-top: 1em;
     
 }
@@ -42,7 +42,9 @@ a , a:visited{
     padding:10px 0px;
     font-size:1.2em;
 }
-
+.text-left{
+    text-align:left;
+}
 .btn{
     
     border: none;
